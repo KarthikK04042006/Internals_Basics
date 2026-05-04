@@ -1,0 +1,13 @@
+{
+ "health_endpoint": "/heartbeat",
+ "predict_endpoint": "/infer",
+ "port": 8080,
+ "health_response": {"status": "healthy", "model_loaded": true},
+ "test_input": {
+   "order_weight_kg": 5.4,
+   "distance_km": 3.5,
+   "is_peak_hour": 1,
+   "items_count": 9
+ },
+ "prediction": 52.964800000000054
+}

@@ -1,0 +1,22 @@
+{
+    "experiment_name": "freshbasket-delivery-time-min",
+    "models": [
+        {
+            "name": "SVR",
+            "mae": 15.677303242935997,
+            "rmse": 19.08333995710526,
+            "r2": -0.1588399534630005,
+            "mape": 40.35979554158104
+        },
+        {
+            "name": "RandomForest",
+            "mae": 5.792759999999977,
+            "rmse": 7.056658210796358,
+            "r2": 0.8415424810302561,
+            "mape": 14.055508839195848
+        }
+    ],
+    "best_model": "RandomForest",
+    "best_metric_name": "rmse",
+    "best_metric_value": 7.056658210796358
+}
